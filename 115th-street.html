@@ -1,147 +1,137 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Lakewood Station Access</title>
-    <meta
-      name="description"
-      content="Learn about better walking, rolling, biking, and transit connections to Lakewood Station"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Daanan Papunta sa Istasyon ng Lakewood</title>
+  <meta
+    name="description"
+    content="Matuto tungkol sa mas mahusay na koneksyon sa paglalakad, pagro-roll, pagbibisikleta, at pagbibiyahe patungo sa Istasyon ng Lakewood"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    id="load-fa-5-css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css?ver=5.9"
+    media="all"
+  />
+  <link
+    rel="stylesheet"
+    id="load-fa-4-css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css?ver=5.9"
+    media="all"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="img/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="img/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="img/favicon-16x16.png"
+  />
+  <link rel="manifest" href="img/manifest.json" />
+  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <meta name="msapplication-config" content="img/browserconfig.xml" />
+  <meta name="theme-color" content="#ffffff" />
+  <!--Facebook Open Graph -->
+  <meta property="og:title" content="Lakewood Station Access" />
+  <meta
+    property="og:url"
+    content="https://LakewoodStationAccess.participate.online/"
+  />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:description"
+    content="Learn about better walking, rolling, biking, and transit connections to Lakewood Station"
+  />
+  <meta
+    property="og:image"
+    content="https://wppo.blob.core.windows.net/st-kingstreetstation/2022/03/kingstreet-soc.jpg"
+  />
+  <meta
+    property="og:image:secure_url"
+    content="https://wppo.blob.core.windows.net/st-kingstreetstation/2022/03/kingstreet-soc.jpg"
+  />
+  <meta property="og:image:alt" content="A busy transit station" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <!--Twitter Open Graph -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Lakewood Station Access" />
+  <meta
+    name="twitter:description"
+    content="Learn about better walking, rolling, biking, and transit connections to Lakewood Station"
+  />
+  <meta
+    name="twitter:url"
+    content="https://LakewoodStationAccess.participate.online/"
+  />
+  <meta
+    name="twitter:image"
+    content="https://wppo.blob.core.windows.net/st-kingstreetstation/2022/03/kingstreet-soc.jpg"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,800;1,900&family=Roboto+Mono&display=swap"
+    rel="stylesheet"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="css/override.css"
+    media="all"
+  />
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "https://www.google-analytics.com/analytics.js",
+      "ga"
+    );
 
-    <link
-      rel="stylesheet"
-      id="load-fa-5-css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css?ver=5.9"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      id="load-fa-4-css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css?ver=5.9"
-      media="all"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="img/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="img/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="img/favicon-16x16.png"
-    />
-    <link rel="manifest" href="img/manifest.json" />
-    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5" />
-    <link rel="shortcut icon" href="img/favicon.ico" />
-    <meta name="msapplication-config" content="img/browserconfig.xml" />
-    <meta name="theme-color" content="#ffffff" />
-
-    <!--Facebook Open Graph -->
-    <meta property="og:title" content="OMF South" />
-    <meta
-      property="og:url"
-      content="https://LakewoodStationAccess.participate.online/"
-    />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:description"
-      content="Learn about better walking, rolling, biking, and transit connections to Lakewood Station
-        "
-    />
-    <meta
-      property="og:image"
-      content="https://wppo.blob.core.windows.net/st-kingstreetstation/2022/03/kingstreet-soc.jpg"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="https://wppo.blob.core.windows.net/st-kingstreetstation/2022/03/kingstreet-soc.jpg"
-    />
-    <meta property="og:image:alt" content="A busy transit station" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-
-    <!--Twitter Open Graph -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="OMF South - Spring 2023" />
-    <meta
-      name="twitter:description"
-      content="Learn about better walking, rolling, biking, and transit connections to Lakewood Station"
-    />
-    <meta
-      name="twitter:url"
-      content="https://LakewoodStationAccess.participate.online/"
-    />
-    <meta
-      name="twitter:image"
-      content="https://wppo.blob.core.windows.net/st-kingstreetstation/2022/03/kingstreet-soc.jpg"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,800;1,900&family=Roboto+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="css/override.css"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      href="https://kit.fontawesome.com/56475f5c73.css"
-      crossorigin="anonymous"
-    />
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-          i[r] ||
-          function () {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "https://www.google-analytics.com/analytics.js",
-        "ga"
-      );
-
-      ga("create", "UA-78280327-1", "auto");
-      ga("send", "pageview");
-    </script>
+    ga("create", "UA-78280327-1", "auto");
+    ga("send", "pageview");
+  </script>
+</head>
+  <meta charset="utf-8" />
   </head>
-
   <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="0">
     <header id="mainheader">
       <div class="topbar">
@@ -164,9 +154,8 @@
           </div>
           <div class="row" style="margin-top: -0.5%">
             <div class="px-4 col">
-              <a href="115th-street-spanish.html">Español</a>
-              |
-              <a href="115th-street-tagalog.html"> Tagalog </a>
+              <a href="https://lakewoodstation.participate.online/115th-street.html">English</a> |
+              <a href="https://lakewoodstation-esp.participate.online/115th-street.html">Español</a> 
             </div>
           </div>
         </div>
@@ -193,12 +182,12 @@
           >
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="index.html#welcome">Welcome</a>
+                <a class="nav-link" href="index.html#welcome">Mabuhay</a>
               </li>
 
               <li class="nav-item">
                 <a class="nav-link" href="priorities.html"
-                  >Our priorities</a
+                  >Ang aming mga priyoridad</a
                 >
               </li>
 
@@ -210,7 +199,7 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Project highlights
+                  Mga Tampok na Bahagi ng Proyekto
                 </a>
                 <ul class="dropdown-menu">
                   <li>
@@ -230,36 +219,35 @@
 
               <li class="nav-item">
                 <a class="nav-link" href="index.html#coloring"
-                  >Coloring activity</a
+                  >Aktibidad sa pagbibigay-kulay</a
                 >
               </li>
 
               <li class="nav-item">
                 <a class="nav-link" href="index.html#improvements"
-                  >More improvements</a
+                  >Higit pang pagpapabuti</a
                 >
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="index.html#next">Next steps</a>
+                <a class="nav-link" href="index.html#next"
+                  >Mga susunod na hakbang</a
+                >
               </li>
             </ul>
           </nav>
         </div>
       </nav>
     </div>
-
     <!-- Left-column -->
-
     <div id="overview">
       <div class="container-xxl">
         <div class="row">
           <div class="px-4 col-lg-8 col-xl-9 pb-5">
-            <div class="mt-5">
-            </div>
+            <div class="mt-5"></div>
             <h1 class="mt-3">
-              A more direct connection to the station for neighbors to the north
-              and west
+              Isang mas direktang koneksyon sa istasyon para sa mga kapitbahay
+              sa hilaga at kanluran
             </h1>
           </div>
         </div>
@@ -273,21 +261,24 @@
                 <img
                   loading="lazy"
                   src="img\lakewood\115th intersection.jpg"
-                  alt="The intersection of Bridgeport Way Southwest and 115th Street Court Southwest, seen from the south. "
+                  alt="Ang interseksyon ng Bridgeport Way Southwest at 115th Street Court Southwest, na nakikita mula sa timog. "
                 />
                 <span class="visually-hidden"
-                  >Bridgeport Way Southwest is a 5-lane road, with the middle
-                  lane being a turn lane. One car is driving northbound. Another
-                  car driving northbound can be seen in the distance, as well as
-                  two cars driving southbound. No crosswalks, signals, or other
-                  pedestrian or bicycle infrastructure that would allow people
-                  to cross Bridgeport Way Southwest is present.</span
+                  >Ang Bridgeport Way Southwest ay isang 5-linyang kalsada, na
+                  ang gitnang linya ay isang linya ng pagliko. Isang sasakyan
+                  ang nagmamaneho patungong hilaga. Isa pang sasakyan ang
+                  nagmamaneho patungong hilaga ang makikita sa di kalayuan,
+                  gayundin ang dalawang sasakyan na nagmamaneho patungong timog.
+                  Walang mga tawiran, palatandaan, o iba pang imprastraktura ng
+                  pedestrian o bisikleta na naroroon na magpapahintulot sa mga
+                  tao na tumawid sa Bridgeport Way Southwest.</span
                 >
                 <figcaption class="s2">
-                  View of Bridgeport Way SW and the 115th St. Ct. SW
-                  intersection, seen from the south. We propose to add a
-                  pedestrian/bike activated signal to help people cross from the
-                  Route 206 bus stops.
+                  Ang tanawin ng Bridgeport Way SW at ang 115th St. Ct.
+                  Interseksyon ng SW, na makikita mula sa timog. Iminumungkahi
+                  naming magdagdag ng isang palatandaan na pinagagana ng
+                  pedestrian/bisikleta para tulungan ang mga tao na tumawid mula
+                  sa mga hintuan ng bus sa Route 206.
                 </figcaption>
               </figure>
             </div>
@@ -296,24 +287,24 @@
           <div class="px-4 col-lg-4 col-xl-3">
             <div class="d-none d-lg-block">
               <!-- callout -->
-
-              <h3 class="gb">Related stories</h3>
+              <h3 class="gb">Mga kaugnay na kuwento</h3>
               <div class="callout">
                 <ul class="stories-list">
                   <li>
                     <a class="story-link" href="priorities.html"
-                      >Share your feedback about priorities for improvements to
-                      the Lakewood Station area</a
+                      >Ibahagi ang iyong feedback tungkol sa mga priyoridad para
+                      sa mga pagpapabuti sa lugar ng Lakewood Station</a
                     >
                   </li>
                   <li>
                     <a class="story-link" href="47th-street.html"
-                      >A better pedestrian connection from Springbrook</a
+                      >Isang mas mahusay na koneksyon ng pedestrian mula sa
+                      Springbrook</a
                     >
                   </li>
                 </ul>
               </div>
-              <!-- -- callout end --  -->
+              <!-- -- callout end -- -->
             </div>
           </div>
         </div>
@@ -323,30 +314,32 @@
       <div class="row">
         <div class="px-4 col-lg-8 col-xl-9">
           <p>
-            Right now, residents can reach Lakewood Station from the north via
-            Kendrick Street or via a long route on Bridgeport Way and Pacific
-            Highway South. The new path at the end of 115th would make this trip
-            much faster and more convenient for people along Bridgeport Way SW.
+            Sa ngayon, ang mga residente ay maaaring makarating sa Lakewood
+            Station mula sa hilaga sa pamamagitan ng Kendrick Street o sa
+            pamamagitan ng isang mahabang ruta sa Bridgeport Way at Pacific
+            Highway South. Ang bagong landas sa dulo ng 115th ay gagawing mas
+            mabilis at mas maginhawang paglalakbay para sa mga tao sa kahabaan
+            ng Bridgeport Way SW.
           </p>
         </div>
         <!-- Right-column -->
         <div class="px-4 col-lg-4 col-xl-3">
           <div class="d-lg-none mt-lg-5">
             <!-- callout -->
-
-            <h3 class="gb">Initial findings overview</h3>
+            <h3 class="gb">Buod ng mga unang natuklasan</h3>
             <div class="callout">
-              <p><b>Preliminary cost estimate*:</b> $1M - $3M</p>
+              <p><b>Paunang pagtatantya sa gastos*:</b> $1M - $3M</p>
               <p>
-                *Preliminary estimates are for construction costs based on a
-                very early stage of design and are subject to change.
+                *Ang mga pagtatantyang ito ay para sa mga gastos sa pagtatayo
+                batay sa napakaagang yugto ng disenyo at maaaring magbago.
               </p>
               <p>
-                <b>Environmental findings:</b> The changes would require some
-                minor tree removal. No significant issues have been identified.
+                <b>Mga natuklasan sa kapaligiran:</b> Mangangailangan ang mga
+                pagbabagong ito ng kaunting pagpuputol ng puno. Walang natukoy
+                na mahahalagang isyu.
               </p>
             </div>
-            <!-- -- callout end --  -->
+            <!-- -- callout end -- -->
           </div>
         </div>
       </div>
@@ -360,74 +353,79 @@
               <!-- Start lightbox -->
               <figure>
                 <a
-                  href="img/lakewood/2023_0824_STSAI_Lakewood_ExistingLakewoodStation_v2.png"
+                  href="img/lakewood/tagalog-img/2023_0822_STSAI_Lakewood_ExistingLakewoodStation_v12_TA.pdf"
                   class="btn p-2"
                   target="_blank"
                 >
                   <img
                     loading="lazy"
-                    src="img/lakewood/2023_0824_STSAI_Lakewood_ExistingLakewoodStation_v2.png"
-                    alt="A map of Lakewood with the Sounder Lakewood station at the center, signified by a train icon. "
+                    src="img/lakewood/tagalog-img/2023_0822_STSAI_Lakewood_ExistingLakewoodStation_v12_TA.png"
+                    alt="Isang mapa ng Lakewood na may istasyon ng Sounder Lakewood sa gitna, na isinagisag ng isang icon ng tren. "
                     class=""
                   />
                   <span class="visually-hidden">
                     <p>
-                      There is a route made up of a solid line with an arrow at
-                      the end that travels down 112th Street Southwest along
-                      Bridgeport Way Southwest to Pacific Highway Southwest and
-                      then travels east to the station. Another solid line route
-                      travels from 112th Street Southwest down Kendrick Street
-                      Southwest until reaching the pedestrian bridge that
-                      crosses over the Sounder South Line from Lakewood to
-                      Seattle rail tracks and goes to Lakewood Station. Both of
-                      these routes are labeled as being current walking/rolling
-                      routes to the station. Another route is on the map, which
-                      begins at the intersection of Bridgeport Way Southwest and
-                      115th Street Court Southwest and extends east along 115th
-                      Street Court Southwest to the end of the cul-de- sac.
+                      Mayroong isang ruta na binubuo ng isang solidong linya na
+                      may isang arrow sa dulo na bumibiyahe pababa sa 112th
+                      Street Southwest sa kahabaan ng Bridgeport Way Southwest
+                      hanggang Pacific Highway Southwest at pagkatapos ay
+                      bumibiyahe sa silangan patungo sa istasyon. Ang isa pang
+                      solidong ruta ng linya ay bumibiyahe mula sa 112th Street
+                      Southwest pababa sa Kendrick Street Southwest hanggang
+                      maabot ang tulay ng pedestrian na tumatawid sa Sounder
+                      South Line mula Lakewood hanggang sa mga riles ng tren ng
+                      Seattle at papunta sa Istasyon ng Lakewood. Ang parehong
+                      mga ruta na ito ay may tatak bilang kasalukuyang mga ruta
+                      ng paglalakad/pag-ikot papunta sa istasyon. Ang isa pang
+                      ruta ay nasa mapa, na nagsisimula sa interseksyon ng
+                      Bridgeport Way Southwest at 115th Street Court Southwest
+                      at umaabot sa silangan sa kahabaan ng 115th Street Court
+                      Southwest hanggang sa dulo ng cul-de-sac.
                     </p>
                     <p>
-                      The route extends beyond the cul-de-sac and ends at the
-                      pedestrian bridge. This route is labeled as a potential
-                      future route to Lakewood station. Two bus stops are also
-                      indicated on the map on either side of Bridgeport Way
-                      Southwest near the 115th Street Court Southwest
-                      intersection. Bicycle facilities are indicated on the map
-                      along Lakeview Avenue Southwest to Kendrick Street
-                      Southwest terminating at the pedestrian bridge. Bike
-                      sharrows are also indicated on the map along Bridgeport
-                      Way Southwest from Pacific Highway Southwest to beyond the
-                      extent of the map to the north. Sharrows are also
-                      indicated along 112th Street Southwest between Bridgeport
-                      Way Southwest and Kendrick Street Southwest. Pierce
-                      Transit bus route 206 is indicated along Bridgeport Way
-                      Southwest along the full extent of the map from north to
-                      south.
+                      Ang ruta ay lumalampas sa cul-de-sac at nagtatapos sa
+                      tulay ng pedestrian. Ang ruta ay may tatak na isang
+                      potensyal na ruta sa hinaharap patungo sa istasyon ng
+                      Lakewood. Dalawang hintuan ng bus ang nakasaad sa mapa sa
+                      alinmang panig ng Bridgeport Way Southwest na malapit sa
+                      interseksyon ng 115th Street Court Southwest. Nakasaad din
+                      sa mapa ang mga pasilidad ng bisikleta sa kahabaan ng
+                      Lakeview Avenue Southwest hanggang Kendrick Street
+                      Southwest na nagtatapos sa tulay ng pedestrian. Ang mga
+                      palatandaan para sa mga bisikleta ay nakasaad din sa mapa
+                      sa kahabaan ng Bridgeport Way Southwest mula Pacific
+                      Highway Southwest hanggang sa lampas ng sakop ng mapa sa
+                      hilaga. Ang mga palatandaan ay nakasaad din sa kahabaan ng
+                      112th Street Southwest sa pagitan ng Bridgeport Way
+                      Southwest at Kendrick Street Southwest. Ang Pierce Transit
+                      bus route 206 ay ipinahiwatig sa kahabaan ng Bridgeport
+                      Way Southwest kasama ang buong lawak ng mapa mula hilaga
+                      hanggang timog.
                     </p>
                   </span>
-                  <figcaption class="s2">
-                    A birds-eye view of the current and proposed routes to the
-                    Lakewood Sounder station. &nbsp;&nbsp;| &nbsp;&nbsp;Click to
-                    enlarge
+                  <figcaption class="s2 lift-text">
+                    Isang tanawin mula sa itaas ng kasalukuyan at iminungkahing
+                    mga ruta papunta sa istasyon ng Lakewood Sounder.
+                    &nbsp;&nbsp;| &nbsp;&nbsp;I-click para palakihin
                   </figcaption>
                 </a>
               </figure>
               <!-- end lightbox -->
               <p>
-                Zac Eskenazi, project manager for Sound Transit, says, “We’re
-                excited about the proposed Bridgeport Way and 115th connections
-                because the connections open up a much more direct way to get to
-                the station to take the Sounder train or buses. The new
+                Ayon kay Zac Eskenazi, project manager ng Sound Transit,
+                &quot;Nasasabik kami sa iminungkahing Bridgeport Way at 115th
+                connections dahil ang mga koneksiyon ang magbubukas ng mas
+                direktang daan upang makapunta sa istasyon at makasakay sa mga
+                tren o bus ng Sounder. Ang bagong
                 <button
                   class="tooltip-anchor"
                   data-bs-toggle="tooltip"
                   data-bs-placement="top"
-                  title="A shared use path provides a travel area for people walking, rolling and biking that is separate from the roadway. While separate from the roadway, shared use paths could affect parking, trees, or other roadway design; this will be determined by further study.  "
+                  title="Ang daan na ito ang magbibigay ng lugar para sa mga naglalakad, gumagamit ng roller at nagbibisikleta na hiwalay sa kalsada.Bagaman hiwalay ito sa kalsada, ang daang ito ay makakaapekto sa paradahan, mga puno, at ibang disenyo ng mga daan; ito ay matutukoy sa pamamagitan ng karagdagang pag-aaral.&nbsp;"
                 >
-                  shared use path
-                </button>
-                would provide a faster connection to the pedestrian bridge and
-                the station.”
+                  daanan</button
+                > ay magbibigay ng mas mabilis na koneksyon sa tulay ng
+                pedestrian at ang istasyon.&quot;
               </p>
             </div>
 
@@ -440,144 +438,152 @@
                 <img
                   loading="lazy"
                   src="img/lakewood/Lakewood__SharedUsePath_Map-cropped.png"
-                  alt="An aerial view of the Bridgeway and 115th Connections spotlight improvement."
+                  alt="Isang tanawin mula sa himpapawid upang maipakita ang pagsulong ng Bridgeway at 115th Connections."
                   class=""
                 />
                 <span class="visually-hidden">
                   <p>
-                    115th Street Court Southwest is located in the middle of the
-                    map, with the west and east boundaries being Bridgeport Way
-                    southwest and 115th Street cul de sac respectively. Colored
-                    lines and icons are used to indicate proposed changes on the
-                    graphic, including sidewalks, sharrows, a shared use path, a
-                    signalized crossing, and Route 206 and associated bus stop
-                    improvements.
+                    Ang 115th Street Court Southwest ay matatagpuan sa gitna ng
+                    mapa, na ang kanluran at silangan na hangganan ay ang
+                    Bridgeport Way southwest at 115th Street cul de sac sa
+                    pagkakabanggit. Ang mga may kulay na linya at icon ay
+                    ginagamit upang ipahiwatig ang mga iminungkahing pagbabago
+                    sa graphic, kabilang ang mga bangketa, mga palatandaan,
+                    daanan, tawirang may hudyat, at Route 206 at kaugnay na mga
+                    pagpapabuti sa hintuan ng bus.
                   </p>
                   <p>
-                    Bus stops improvements are indicated on the east and west
-                    side of the street just north and south of 115th. A
-                    signalized crossing is proposed on the northside of 115th
-                    across Bridgeport Way Southwest.
+                    Ang mga pagpapabuti sa mga hintuan ng bus ay ipinahiwatig sa
+                    silangan at kanlurang bahagi ng kalye sa hilaga at timog ng
+                    115th. Iminungkahi ang tawirang may hudyat sa hilagang
+                    bahagi ng 115th sa buong Bridgeport Way Southwest.
                   </p>
                   <p>
-                    Sharrows are proposed along 115th Street Court Southwest
-                    from Bridgeport Way Southwest to the cul de sac just north
-                    of the Sounder rail. Sharrows are labeled with a pedestrian
-                    and car icon. Sidewalks are also proposed along the
-                    northside of 115th from the west of the Cascade Village
-                    Apartment complex and around the circumference of the cul de
-                    sac. Sidewalks are labeled with a pedestrian icon.
+                    Ang mga palatandaan ay iminungkahi sa kahabaan ng 115th
+                    Street Court Southwest mula Bridgeport Way Southwest
+                    hanggang sa cul de sac sa hilaga lamang ng riles ng Sounder.
+                    Ang mga palatandaan ay minarkahan ng pedestrian at icon ng
+                    sasakyan. Ang mga bangketa ay iminumungkahi din sa kahabaan
+                    ng hilagang bahagi ng 115th mula sa kanluran ng Cascade
+                    Village Apartment complex at sa paligid ng sirkumperensiya
+                    ng cul de sac. Ang mga bangketa ay minarkahan ng icon ng
+                    pedestrian.
                   </p>
                   <p>
-                    A shared use path is proposed adjacent to the Sounder rail
-                    heading northeast-bound. The shared use path is labeled with
-                    bicycle and pedestrian icons.
+                    Ang isang daanan ay iminungkahi na katabi ng riles ng
+                    Sounder patungo sa hilagang-silangan. Ang daanan ay
+                    minarkahan ng icon ng bisikleta at pedestrian.
                   </p>
                   <p>
-                    A label is located in the lower lefthand corner of the map.
-                    It says: draft; not to scale; location of shared use path to
-                    be determined. A north arrow is located to the right of the
-                    label.
+                    Ang marka ay matatagpuan sa ibabang kaliwang sulok ng mapa.
+                    Sinasabi nito: draft; hindi sa sukat; tutukuyin pa lang ang
+                    lokasyon ng daanan. Ang hilagang arrow ay matatagpuan sa
+                    kanan ng marka.
                   </p>
                 </span>
                 <figcaption class="s2">
-                  The Bridgeport Way and 115th connections include a new
-                  crossing and bus stop improvements on Bridgeport Way,
-                  sidewalks, sharrows and other improvements on 115th Street
-                  Court SW. The improvement also includes a shared use path that
-                  connects walkers, bicyclists, and rollers to Lakewood Station
-                  via 115th. &nbsp;&nbsp;| &nbsp;&nbsp;Click to enlarge
+                  Ang mga koneksyon sa Bridgeport Way at 115th ay may bagong
+                  tawiran at mga pagpapahusay sa hintuan ng bus sa Bridgeport
+                  Way, mga bangketa, palatandaan, at iba pang pagpapahusay sa
+                  115th Street Court SW. Kasama rin sa pagpapabuti ng daan na
+                  nag-uugnay sa mga naglalakad, nagbibisikleta, at mga roller sa
+                  Lakewood Station sa pamamagitan ng 115th. &nbsp;&nbsp;|
+                  &nbsp;&nbsp;I-click para palakihin
                 </figcaption>
               </a>
             </figure>
           </div>
           <!-- end lightbox -->
           <p>
-            We are also proposing the addition of a pedestrian/bike activated
-            signal to help people cross Bridgeport Way at the intersection with
-            115th Street Court SW, where Pierce Transit Route 206 stops. Other
-            upgrades on 115th St. Ct. SW include more sidewalks and curb ramps,
-            sharrows, wayfinding signage and a new passenger pickup/drop-off
-            area at the cul-de-sac at the end of 115th St. Ct. SW.
+            Iminumungkahi din namin ang pagdaragdag ng isang palatandaan na
+            pinagagana ng pedestrian/bisikleta para tulungan ang mga tao na
+            tumawid sa Bridgeport Way sa interseksyon ng 115th Street Court SW,
+            kung saan humihinto ang Pierce Transit Route 206. Iba pang mga
+            pag-upgrade sa 115th St. Ct. Ang SW ay magsasama ng higit pang
+            bangketa at mga rampa sa gilid ng bangketa, palatandaan, karatula ng
+            paghahanap ng daan at isang bagong lugar ng sakayan/babaan ng
+            pasahero sa cul-de-sac sa dulo ng 115th St.Ct. SW.
           </p>
           <p>
-            Eskenazi says, “Coupled with better wayfinding signs, these
-            improvements could really improve access for people taking transit
-            in the area and trying to access the station. Whether that’s to take
-            a game train to watch the Seahawks, or to commute to work, or to
-            take a regional bus, we think this connection is super important.”
+            Sabi ni Eskenazi, &quot;Kasama ang mas mahusay na mga palatandaan sa
+            paghahanap ng daan, ang mga pagpapabuti na ito ay maaaring talagang
+            mapabuti ang pag-access para sa mga taong gumagamit ng transit sa
+            lugar at sinusubukan na ma-access ang istasyon. Kung iyon man ay
+            pagsakay sa game train para panoorin ang Seahawks, o mag-commute
+            papunta sa trabaho, o sumakay sa isang panrehiyong bus, sa palagay
+            namin ang koneksyon na ito ay napakahalaga.&quot;
           </p>
           <p>
-            After the project finishes environmental review later this year, the
-            Sound Transit Board will select the improvements to build. If the
-            Bridgeport Way and 115th connections are selected, Sound Transit
-            would construct the
+            Pagkatapos ng pagsusuri sa kapaligiran ng proyekto sa huling bahagi
+            ng taong ito, pipiliin ng Sound Transit Board ang mga pagpapabuti na
+            gagawin. Kung mapipili ang Bridgeport Way at 115th na koneksyon,
+            gagawin ng Sound Transit ang
             <button
               class="tooltip-anchor"
               data-bs-toggle="tooltip"
               data-bs-placement="top"
-              title="A shared use path provides a travel area for people walking, rolling and biking that is separate from the roadway. While separate from the roadway, shared use paths could affect parking, trees, or other roadway design; this will be determined by further study.  "
+              title="Ang daan na ito ang magbibigay ng lugar para sa mga naglalakad, gumagamit ng roller at nagbibisikleta na hiwalay sa kalsada. Bagaman hiwalay ito sa kalsada, ang daang ito ay makakaapekto sa paradahan, mga puno, at ibang disenyo ng mga daan; ito ay matutukoy sa pamamagitan ng karagdagang pag-aaral.&nbsp; "
             >
-              shared use path
+              daanan
             </button>
-            from the 115th St. Ct. SW cul-de-sac to the station and the City of
-            Lakewood would construct the remaining improvements.
+            mula sa 115th St. Ct. Ang SW cul-de-sac patungo sa istasyon at ang
+            Siyudad ng Lakewood ang siyang magtatayo sa mga natitirang
+            pagpapabuti.
           </p>
         </div>
         <!-- Right-column -->
         <div class="px-4 col-lg-4 col-xl-3">
           <div class="d-none d-lg-block">
             <!-- callout -->
-
-            <h3 class="gb">Initial findings overview</h3>
+            <h3 class="gb">Buod ng mga unang natuklasan</h3>
             <div class="callout">
-              <p><b>Preliminary cost estimate*:</b> $1M - $3M</p>
+              <p><b>Paunang pagtatantya sa gastos*:</b> $1M - $3M</p>
               <p>
-                *Preliminary estimates are for construction costs based on a
-                very early stage of design and are subject to change.
+                *Ang mga pagtatantyang ito ay para sa mga gastos sa pagtatayo
+                batay sa napakaagang yugto ng disenyo at maaaring magbago.
               </p>
               <p>
-                <b>Environmental findings:</b> The changes would require some
-                minor tree removal. No significant issues have been identified.
+                <b>Mga natuklasan sa kapaligiran:</b> Mangangailangan ang mga
+                pagbabagong ito ng kaunting pagpuputol ng puno. Walang natukoy
+                na mahahalagang isyu.
               </p>
             </div>
-            <!-- -- callout end --  -->
+            <!-- -- callout end -- -->
           </div>
           <div class="d-lg-none">
             <!-- callout -->
-
-            <h3 class="gb">Related stories</h3>
+            <h3 class="gb">Mga kaugnay na kuwento</h3>
             <div class="callout">
               <ul class="stories-list">
                 <li>
                   <a class="story-link" href="priorities.html"
-                    >Share your feedback about priorities for improvements to
-                    the Lakewood Station area</a
+                    >Ibahagi ang iyong feedback tungkol sa mga priyoridad para
+                    sa mga pagpapabuti sa lugar ng Lakewood Station</a
                   >
                 </li>
                 <li>
                   <a class="story-link" href="47th-street.html"
-                    >A better pedestrian connection from Springbrook</a
+                    >Isang mas mahusay na koneksyon ng pedestrian mula sa
+                    Springbrook</a
                   >
                 </li>
               </ul>
             </div>
-            <!-- -- callout end --  -->
+            <!-- -- callout end -- -->
           </div>
         </div>
       </div>
     </div>
-
     <footer>
-      <div id="footer">
+      <div id="footer" class="mt-0">
         <div class="container-xxl">
           <div class="row">
             <div class="px-4 col-md-6 col-lg-3">
               <h2 class="footer-header" id="contact-us">
-                Questions? Contact us:
+                May mga tanong? Makipag-ugnayan sa amin:
               </h2>
               <p>
-                <strong>Melanie Mayock</strong> <br /><strong>Phone:</strong>
+                <strong>Melanie Mayock</strong> <br /><strong>Telepono:</strong>
                 <a href="tel:2066894877">206-689-4877</a> <br /><strong
                   >Email:</strong
                 >
@@ -599,36 +605,38 @@
             </div>
             <div class="px-4 col-md-6 col-lg-3">
               <h2 class="footer-header" id="contact">
-                Need assistance online or at an in-person event?
+                Kailangan ng tulong online o sa isang personal na kaganapan?
               </h2>
               <p>
-                Accessibility Inquiries:<br /><strong>Phone:</strong>
+                Mga Tanong sa Pagiging Acecessible:<br /><strong
+                  >Telepono:</strong
+                >
                 <a href="tel:18002014900">1-800-201-4900</a>, TTY Relay 711
                 <br /><strong>Email:</strong>
                 <a href="mailto:main@soundtransit.org">main@soundtransit.org</a>
-                <br />Monday - Friday, 7 a.m. to 7 p.m.
+                <br />Lunes - Biyernes, 7 a.m. hanggang 7 p.m.
               </p>
             </div>
             <div class="px-4 col-md-6 col-lg-3">
-              <h2 class="footer-header">Additional services:</h2>
+              <h2 class="footer-header">Mga karagdagang serbisyo:</h2>
               <p>
-                General Rider Inquiries:<br /><strong>Phone:</strong>
+                Mga Pangkalahatang Tanong ng Rider:<br /><strong
+                  >Telepono:</strong
+                >
                 <a href="tel:18888896368">1-888-889-6368</a>, TTY Relay 711
                 <br /><strong>Email:</strong>
                 <a href="mailto:main@soundtransit.org">main@soundtransit.org</a>
-                <br />Monday - Friday, 7 a.m. to 7 p.m.
+                <br />Lunes - Biyernes, 7 a.m. hanggang 7 p.m.
               </p>
               <p>
-                Call or text Security 24/7:
+                Tumawag o mag-text sa Seguridad nang 24/7:
                 <a href="tel:2063985268">206-398-5268</a>
               </p>
             </div>
             <div class="px-4 col-md-6 col-lg-3">
               <div>
-                <p>
-                  <img
-                    loading="lazy" src="/img/st-white.png" alt="Sound Transit" />
-                </p>
+                <p><img
+                    loading="lazy" src="/img/st-white.png" alt="Sound Transit" /></p>
               </div>
               <h2
                 class="footer-header"
@@ -636,7 +644,7 @@
                 data-gtm-vis-total-visible-time-7220466_14="100"
                 data-gtm-vis-has-fired-7220466_14="1"
               >
-                Follow us
+                I-follow kami
               </h2>
               <p>
                 <a
@@ -648,7 +656,7 @@
                     loading="lazy"
                     src="img/footer_fb_icon.svg"
                     class="socialicon"
-                    alt="Facebook icon"
+                    alt="Icon ng Facebook"
                   />
                 </a>
                 <a
@@ -660,7 +668,7 @@
                     loading="lazy"
                     src="img/footer_twitter_icon.svg"
                     class="socialicon"
-                    alt="Twitter icon"
+                    alt="Icon ng Twitter"
                   />
                 </a>
                 <a
@@ -672,7 +680,7 @@
                     loading="lazy"
                     src="img/footer_flickr_icon.svg"
                     class="socialicon"
-                    alt="Flikr icon"
+                    alt="Icon ng Flickr"
                   />
                 </a>
                 <a
@@ -684,7 +692,7 @@
                     loading="lazy"
                     src="img/footer_youtube_icon.svg"
                     class="socialicon"
-                    alt="YouTube icon"
+                    alt="Icon ng YouTube"
                   />
                 </a>
                 <a
@@ -696,7 +704,7 @@
                     loading="lazy"
                     src="img/footer_instagram_icon.svg"
                     class="socialicon"
-                    alt="Instagram icon"
+                    alt="Icon ng Instagram"
                   />
                 </a>
                 <a
@@ -708,7 +716,7 @@
                     loading="lazy"
                     src="img/footer_googleplus_icon.svg"
                     class="socialicon"
-                    alt="Google Plus icon"
+                    alt="Icon ng Google Plus"
                   />
                 </a>
               </p>
@@ -716,7 +724,7 @@
           </div>
           <p style="clear: both"></p>
           <div class="copyright clearfix">
-            Copyright ©
+            Copyright &copy;
             <script>
               document.write(new Date().getFullYear());
             </script>
@@ -728,7 +736,6 @@
         </div>
       </div>
     </footer>
-
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -740,5 +747,6 @@
       src="https://translate.google.com/translate_a/element.js?
 cb=googleTranslateElementInit"
     ></script>
+
   </body>
 </html>
